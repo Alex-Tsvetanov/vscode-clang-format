@@ -229,7 +229,8 @@ export class ClangDocumentFormattingEditProvider implements vscode.DocumentForma
       vscode.window.showWarningMessage(`Unable to deduce the location of clang-format executable for file outside the workspace - expanding \${workspaceFolder} to '${fallbackWorkspace.name}' path`);
       workspacePath = fallbackWorkspace;
     }
-    return workspacePath.uri.path;
+    let resultPath = workspacePath.uri.path.substring(1); // as the uri.path starts with a leading / for no reason
+    return resultPath;
   }
 
   private doFormatDocument(document: vscode.TextDocument, range: vscode.Range, options: vscode.FormattingOptions, token: vscode.CancellationToken): Thenable<vscode.TextEdit[]> {
