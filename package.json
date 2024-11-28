@@ -1,9 +1,9 @@
 {
-  "name": "clang-format",
-  "displayName": "Clang-Format",
+  "name": "env-var-clang-format",
+  "displayName": "Clang-Format with Env Variable Support",
   "description": "Use Clang-Format in Visual Studio Code",
   "version": "2.0.0",
-  "publisher": "Alex Tsvetanov",
+  "publisher": "coder-of-worlds",
   "engines": {
     "vscode": "^1.15.0"
   },

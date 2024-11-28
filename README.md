@@ -1,9 +1,5 @@
 # README
 
-[![License: MIT](https://img.shields.io/badge/license-MIT-orange.svg)](https://github.com/xaverh/vscode-clang-format/blob/master/LICENSE)
-[![Marketplace Version](https://vsmarketplacebadge.apphb.com/version/xaver.clang-format.svg)](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
-[![Installs](https://vsmarketplacebadge.apphb.com/installs/xaver.clang-format.svg)](https://marketplace.visualstudio.com/items?itemName=xaver.clang-format)
-
 [Clang-Format](http://clang.llvm.org/docs/ClangFormat.html) is a tool to format C/C++/Java/JavaScript/Objective-C/Objective-C++/Protobuf code. It can be configured with a config file named `.clang-format` within the working folder or a parent folder. Configuration see: http://clang.llvm.org/docs/ClangFormatStyleOptions.html
 
 
@@ -81,4 +77,4 @@ LLVM contains the clang-format binary, the resulting pat for the `clang-format.e
 ```
 
 ## Source code
-Available on github: https://github.com/xaverh/vscode-clang-format-provider
+Available on github: https://github.com/Alex-Tsvetanov/vscode-clang-format-provider
